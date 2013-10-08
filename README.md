@@ -10,6 +10,12 @@ Features:
 * Optional statsd integration.
 * Graceful termination on runtime shutdown.
 
+## Latest version on [Clojars](https://clojars.org/resque-worker)
+
+```clojure
+[resque-worker "1.0.0"]
+```
+
 ## Usage
 
 ```clojure

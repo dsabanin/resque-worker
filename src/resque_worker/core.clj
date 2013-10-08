@@ -11,7 +11,7 @@
            port 6379
            timeout 300
            max-workers (.. (Runtime/getRuntime) availableProcessors)
-           poll-interval 1
+           poll-interval 1000
            max-shutdown-wait 300}}]
   (resque/configure {:host host
                      :port port

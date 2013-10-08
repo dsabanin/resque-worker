@@ -1,4 +1,4 @@
-(defproject resque-worker "0.1.0-SNAPSHOT"
+(defproject resque-worker "1.0.0"
   :description "Simple resque worker with logging, statsd and graceful shutdown support."
   :url "https://github.com/dsabanin/resque-worker"
   :license {:name "Eclipse Public License"

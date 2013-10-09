@@ -13,7 +13,7 @@ Features:
 ## Latest version on [Clojars](https://clojars.org/resque-worker)
 
 ```clojure
-[resque-worker "1.0.1"]
+[resque-worker "1.0.3"]
 ```
 
 ## Usage

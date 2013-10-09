@@ -5,6 +5,6 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :author "Dima Sabanin <sdmitry@gmail.com>"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [dsabanin/resque-clojure "0.3.4"]
+                 [dsabanin/resque-clojure "0.3.5"]
                  [wildbit/simplelog "1.0.13"]
                  [clj-statsd "0.3.2"]])

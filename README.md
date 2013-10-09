@@ -30,7 +30,7 @@ Features:
   []
   (resque/configure :host "my-redis.local"
                     :password "ABCDEFGHIJ")
-  (resque/listen "emails"))
+  (resque/listen ["emails"]))
 ```
 
 Statsd integration is part of the resque-worker package, so you just need to configure the statsd package. 
@@ -45,7 +45,7 @@ If you are already using statsd in your project through clj-statsd, it should wo
   []
   (resque/configure)
   (statsd/setup "127.0.0.1" 8125)
-  (resque/listen "emails"))
+  (resque/listen ["emails"]))
 ```
 
 ## License

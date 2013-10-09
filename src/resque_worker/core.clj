@@ -55,7 +55,7 @@
   (System/exit 1))
 
 (defn listen
-  [& queues]
+  [queues opts]
   (info "Starting workers for" (clojure.string/join ", " queues))
   (stop-workers-on-shutdown! queues)
-  (resque-super/start queues {:dispatcher-error-handler default-dispatch-error }))
+  (resque-super/start queues (merge {:dispatcher-error-handler default-dispatch-error} opts)))
